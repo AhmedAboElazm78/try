@@ -1,0 +1,111 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background: #EFEFEF;
+}
+body{
+  background-image: url("1.jpeg");
+ background-repeat: round;
+ background-size:contain;
+ background-attachment:fixed;
+}
+  h1{
+  color: #aaf;
+  font-size: 30px;
+  font-style: italic;
+  font-weight: bold;
+  font-family: arial;
+  background-color: #DDD;
+}
+div{
+  font-family:tahoma,arial;
+  font-style: italic;
+  font-weight: bold;
+  padding:50px 100px ;
+  width: 550px;
+  height: 200px;
+  padding: 10px;
+  border: 1.5px groove #FFF;
+  background-color: #DDD;
+  margin: 10px 0px 10px 500px;
+  display: inline-block;
+}
+.aa{
+  text-align: center;
+  margin-top: 60px;
+}
+li{
+  background-color: #DDD;
+}
+.a1{
+  height: 400px;
+}
+fieldset{
+  background:#DDD; border:2px solid:#BBB;
+  margin: 20px;
+}
+fieldset input,label,form{
+  padding: 5px;
+}
+.a2 ol,li,h1{
+  margin: 0px 0px 0px 100px;
+}
+.a2{
+  height: 200px;
+  overflow: auto;
+}
+.a3 ul,li{
+  margin: 0px 0px 0px 100px;
+}
+ul{
+  list-style-type:circle;
+  list-style-position: outside;
+}
+.ss{
+  text-decoration:line-through;
+  text-transform: uppercase;/*capitalize,lowercase*/
+  text-decoration-color: #f00;
+}
+.ss:hover{
+  text-decoration: underline;
+  text-transform: lowercase;
+  color: #00f;
+  cursor:no-drop;
+  //display: none;/*بتخفى العنصر وتشيله من مكانه */
+  //visibility: hidden;/*بتخفى العنصر ولكن ماكنه محفوظ وموجود */
+}
+.header{
+  position:fixed;
+  text-align: center;
+  border: 2px solid #EFEFEF;
+  background-color: #ededdc;
+  width:1495px;
+  height: 20px;
+  color:#eee;
+  padding: 10px;
+  margin: 0px 0px 10px;
+}
+.header a{
+  border:1px solid  #eee;
+  display:inline-block;
+  background: #ddd;
+  //padding: 5px;
+  width: 125px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family:sana-serif;
+  font-style: italic;
+  color:white ;
+  border-radius: 10px;
+  text-align: center;
+  text-shadow:1px;
+  text-decoration: none;
+
+}
+.header a:hover{
+  text-transform: lowercase;
+  text-decoration: underline;
+  background: #ccc;
+  border-radius: 10px;
+  color:#00f;
+}
